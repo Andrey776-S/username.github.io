@@ -1,90 +1,105 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Резюме Алексей Примадонин</title>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <div id="header">
-    <h1>Алексей Примадонин</h1>
-    <h2 class="header-title">Веб-разработчик</h2>
-    <p>
-      <a href="mailto:ap@somemail.com">ap@somemail.com</a>,
-      <a href="https://github.com/alprima">github.com/alprima</a>
-    </p>
-  </div>
+  <header class="header">
+    <div class="header-container">
+        <a class="header-container__buttom-burger" href="#" >
+          <img src="icon/burger.svg" alt="Меню">
+        </a>
+        <img class="header-container__border-1" src="icon/divider.svg" alt="Бордер">
+        <img class="header-container__logo" src="icon/Group.svg" alt="Логотип">
 
-  <div id="main">
-    <p>
-      Я увлекаюсь веб-дизайном со старших классов школы. Начал с мини-сайтов для себя и друзей, потом для местных фирм и
-      организаций. После курсов на Хекслете начал работу веб-разработчиком. Пишу на JS (ES6), люблю функциональное
-      программирование. Умею работать с SQL, HTTP, Git и Ansible. Пишу тесты.
-    </p>
-
-    <p>
-      Готов к удаленной работе и релокации.
-    </p>
-
-    <div class="main_section">
-      <h2>Опыт работы</h2>
-
-      <div class="main_section_item">
-        <h3>Майкрософт Россия</h3>
-        <p>Программист (стажировка), <i>апрель 2016 — ноябрь 2016</i></p>
-        <ul>
-          <li>Работа в команде на C#</li>
-          <li>Создание веб-сайта проекта JDX</li>
-        </ul>
-      </div>
-
-      <div class="main_section_item">
-        <h3>TOO «Винная Баня»</h3>
-        <p>Веб-дизайн, <i>январь 2015 — апрель 2016</i></p>
-        <ul>
-          <li>Верстка макетов</li>
-          <li>Разработка тем для Wordpress</li>
-          <li>Поддержка сайта</li>
-        </ul>
-      </div>
+        <a class="header-container__button-call" href="#" >
+         <img src="icon/call.svg" alt="Звонок">
+        </a>
+        <a class="header-container__button-chat" href="#">
+         <img src="icon/chat.svg" alt="Чат">
+        </a>
+        <a class="header-container__button-profile" href="#">
+         <img src="icon/profile.svg" alt="Профиль">
+        </a>
+        <img class="header-container__border-2" src="icon/divider.svg" alt="Бордер">
+        <a href="#" class="header-container__buttom-repair">
+         <img src="icon/repair.svg" alt="Ремонт">
+        </a>
+        <a href="" class="header-container__buttom-checkstatus">
+         <img src="icon/checkstatus.svg" alt="Проверка статуса">
+        </a>
     </div>
+  </header>
+    <main class="main">
+      <div class="main-container">
+        <div class="menu-container">
+        <div class="main-container-header">
+          <div class="main-title">
+            <img src="icon/highlight.svg" alt="">
+            <h1 class="main-title__title">Услуги и сервисы</h1>
+          </div>
+          <div class="main-container-button">
+            <a class="main-container-button__buttom-repair" href="#">
+              <span>Оставить заявку</span>
+              <img src="icon/repair.svg" alt="">
+            </a>
+            <a class="main-container-button__buttom-search" href="#">
+              <span>Статус ремонта</span>
+              <img src="icon/checkstatus.svg" alt="">
+            </a>
+          </div>
+        </div>
+        <nav class="slide-menu">
+            <a class="slide-menu__repair-service" href="#">Ремонтируемые устройства</a>
+            <a class="slide-menu__dop-service" href="#">Дополнительные услуги</a>
+            <a class="slide-menu__price-service" href="#">Цены на услуги</a>
+            <a class="slide-menu__special-price" href="#">Специальные цены</a>
+        </nav>
+        </div>
+        <div class="main-container-block-1">
+          <div  class="main-container-block-1__read-container">
+            <section class="main-container-block-1__text">
+              <p>Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+              <p>Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+            </section>
+            <div class="main-container-block-1__read-more">
+              <img src="icon/expand.svg" alt="">
+              <a class="main-container-block-1__read-more-button" href="#">Читать далее</a>
+            </div>
+          </div>
+          <div class="main-container-block-1__logo">
+            <img src="img/Picture%20Copy.jpg" alt="Logo">
+          </div>
+        </div>
 
-    <div class="main_section">
-      <h2>Образование</h2>
-
-      <div class="main_section_item">
-        <h3>Университет им. Патриса Лумумбы</h3>
-        <p>Бакалавр информационных систем, <i>2012 —  2016</i></p>
       </div>
+    </main>
 
-      <div class="main_section_item">
-        <h3>Хекслет</h3>
-        <p>Курсы по программированию, JS Backend/Frontend, <i>2015 — 2017</i></p>
-      </div>
-    </div>
 
-    <div class="main_section">
-      <h2>Другие навыки и увлечения</h2>
 
-      <div class="main_section_item">
-        <ul>
-          <li>Основы дизайна и типографики</li>
-          <li>Любительская игра на гитаре</li>
-          <li>Хоккей на траве (городская лига)</li>
-        </ul>
-      </div>
-    </div>
 
-  </div>
 
-  <div id="footer">
-    <strong>Алексей Примадонин</strong>
-    <br/>
-      ул. Полевая, 12, Астрахань, Россия +7 888 127 00 01, <a href="mailto:ap@somemail.com">ap@somemail.com</a>
-  </div>
 
+
+  <!-- Add your site or application content here
+  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  Google Analytics: change UA-XXXXX-Y to be your site's ID.
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+-->
 </body>
 
 </html>
