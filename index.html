@@ -1,90 +1,61 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>Резюме Алексей Примадонин</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Block-menu</title>
+    <link rel="stylesheet" href="css.css">
 </head>
-
 <body>
-  <div id="header">
-    <h1>Алексей Примадонин</h1>
-    <h2 class="header-title">Веб-разработчик</h2>
-    <p>
-      <a href="mailto:ap@somemail.com">ap@somemail.com</a>,
-      <a href="https://github.com/alprima">github.com/alprima</a>
-    </p>
-  </div>
+    <div class="container">
 
-  <div id="main">
-    <p>
-      Я увлекаюсь веб-дизайном со старших классов школы. Начал с мини-сайтов для себя и друзей, потом для местных фирм и
-      организаций. После курсов на Хекслете начал работу веб-разработчиком. Пишу на JS (ES6), люблю функциональное
-      программирование. Умею работать с SQL, HTTP, Git и Ansible. Пишу тесты.
-    </p>
+        <header>
+            <div class="header-menu">
+                <a href="#" class="header-menu__burger">
+                    <img src="icon/burger.svg" alt="меню" class="icon icon-burger">
+                </a>
+                <a href="#" class="header-menu__logo">
+                    <img src="icon/Group.svg" alt="логотип" class="icon icon-logo">
+                </a>
+                <a href="#" class="header-menu__search">
+                    <img src="icon/search.svg" alt="поиск" class="icon icon-search">
+                </a>
+            </div>
+        </header>
 
-    <p>
-      Готов к удаленной работе и релокации.
-    </p>
+        <main>
+            <div class="main-menu">
+                <img src="icon/highlight.svg" alt="" class="main-menu__green-border">
+                <ul>
+                    <li><a href="#">Ремонт техники</a></li>
+                    <li><a href="#">Услуги и сервисы</a></li>
+                    <li><a href="#">Корпоративным клиентам</a></li>
+                    <li><a href="#">Продавцам техники</a></li>
+                    <li><a href="#">Партнерам</a></li>
+                    <li><a href="#">Производителям</a></li>
+                    <li><a href="#">Наши сервисные центры</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </main>
 
-    <div class="main_section">
-      <h2>Опыт работы</h2>
+        <footer>
+            <div class="menu-footer">
+                <a href="" class="menu-footer__call"><img src="icon/chat%20copy.svg" alt="звонок" class="icon menu-footer__icon-coll"></a>
+                <a href="" class="menu-footer__chat"><img src="icon/chat.svg" alt="чат" class="icon menu-footer__icon-chat"></a>
+                <a href="" class="menu-footer__profile"><img src="icon/profile.svg" alt="профиль" class="icon menu-footer__profile"></a>
+                <p class="mail">mail@cps.com</p>
+                <p class="number">8 800 890 8900</p>
+                <div class="lang">
+                    <a href="#" class="lang-ru">RU</a>
+                    <a href="#" class="lang-en">EN</a>
+                    <a href="#" class="lang-ch">CH</a>
+                </div>
+            </div>
+        </footer>
 
-      <div class="main_section_item">
-        <h3>Майкрософт Россия</h3>
-        <p>Программист (стажировка), <i>апрель 2016 — ноябрь 2016</i></p>
-        <ul>
-          <li>Работа в команде на C#</li>
-          <li>Создание веб-сайта проекта JDX</li>
-        </ul>
-      </div>
-
-      <div class="main_section_item">
-        <h3>TOO «Винная Баня»</h3>
-        <p>Веб-дизайн, <i>январь 2015 — апрель 2016</i></p>
-        <ul>
-          <li>Верстка макетов</li>
-          <li>Разработка тем для Wordpress</li>
-          <li>Поддержка сайта</li>
-        </ul>
-      </div>
     </div>
-
-    <div class="main_section">
-      <h2>Образование</h2>
-
-      <div class="main_section_item">
-        <h3>Университет им. Патриса Лумумбы</h3>
-        <p>Бакалавр информационных систем, <i>2012 —  2016</i></p>
-      </div>
-
-      <div class="main_section_item">
-        <h3>Хекслет</h3>
-        <p>Курсы по программированию, JS Backend/Frontend, <i>2015 — 2017</i></p>
-      </div>
-    </div>
-
-    <div class="main_section">
-      <h2>Другие навыки и увлечения</h2>
-
-      <div class="main_section_item">
-        <ul>
-          <li>Основы дизайна и типографики</li>
-          <li>Любительская игра на гитаре</li>
-          <li>Хоккей на траве (городская лига)</li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
-
-  <div id="footer">
-    <strong>Алексей Примадонин</strong>
-    <br/>
-      ул. Полевая, 12, Астрахань, Россия +7 888 127 00 01, <a href="mailto:ap@somemail.com">ap@somemail.com</a>
-  </div>
-
 </body>
-
 </html>
