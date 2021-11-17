@@ -1,10 +1,8 @@
-new Swiper('.swiper', {
+
+const swiper = new Swiper('.swiper', {
     slidesPerView: 1.2,
     spaceBetween: 16,
-
-    // centerSlides: true,
-
-    // autoHeight: true,
+    slidesOffsetBefore: 16,
 
     pagination: {
         el: '.swiper-pagination',
@@ -14,7 +12,7 @@ new Swiper('.swiper', {
 
 let buttonOpen = document.querySelector('.button-show');
 let buttonClose = document.querySelector('.button-close');
-let block = document.querySelector('.block');
+let block = document.querySelector('.main-block');
 
 buttonOpen.addEventListener('click', function (evt){
     evt.preventDefault();
