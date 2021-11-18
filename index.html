@@ -1,61 +1,212 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Block-menu</title>
-    <link rel="stylesheet" href="css.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
 </head>
 <body>
-    <div class="container">
-
-        <header>
-            <div class="header-menu">
-                <a href="#" class="header-menu__burger">
-                    <img src="icon/burger.svg" alt="меню" class="icon icon-burger">
-                </a>
-                <a href="#" class="header-menu__logo">
-                    <img src="icon/Group.svg" alt="логотип" class="icon icon-logo">
-                </a>
-                <a href="#" class="header-menu__search">
-                    <img src="icon/search.svg" alt="поиск" class="icon icon-search">
-                </a>
-            </div>
-        </header>
-
-        <main>
-            <div class="main-menu">
-                <img src="icon/highlight.svg" alt="" class="main-menu__green-border">
-                <ul>
-                    <li><a href="#">Ремонт техники</a></li>
-                    <li><a href="#">Услуги и сервисы</a></li>
-                    <li><a href="#">Корпоративным клиентам</a></li>
-                    <li><a href="#">Продавцам техники</a></li>
-                    <li><a href="#">Партнерам</a></li>
-                    <li><a href="#">Производителям</a></li>
-                    <li><a href="#">Наши сервисные центры</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </div>
+          <div class="container">
+            <header class="header">
+                <h1 class="header__title">Ремонт техники различных брендов</h1>
+            </header>
+        
+            <main>
+                <!-- Slider main container -->
+                <div class="swiper">
+        
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap.svg" alt="логотип" class="logo-icon">
+                        </a>
+                        <a href="#" class="swiper-slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+        
+                    <div class="swiper-slide">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap2.svg" alt="логотип" class="logo-icon">
+                        </a>
+                        <a href="#" class="swiper-slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+        
+                    <div class="swiper-slide">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap3.svg" alt="логотип" class="logo-icon">
+                        </a>
+                        <a href="#" class="swiper-slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap4.svg" alt="логотип" class="logo-icon">
+                        </a>
+                        <a href="#" class="swiper-slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap5.svg" alt="логотип" class="logo-icon">
+                        </a>
+                        <a href="#" class="swiper-slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap6.svg" alt="логотип" class="logo-icon">
+                        </a>
+                        <a href="#" class="swiper-slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap7.svg" alt="логотип" class="logo-icon">
+                        </a>
+                        <a href="#" class="swiper-slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap8.svg" alt="логотип" class="logo-icon">
+                        </a>
+                        <a href="#" class="swiper-slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+        
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+        
+                </div>
+                
+                <div class="main-block">
+        
+                    <div class="slide__block">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap.svg" alt="логотип" class="slide__logo-icon">
+                        </a>
+                        <a href="#" class="slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="slide__block">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap2.svg" alt="логотип" class="slide__logo-icon">
+                        </a>
+                        <a href="#" class="swiper-slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="slide__block">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap3.svg" alt="логотип" class="slide__logo-icon">
+                        </a>
+                        <a href="#" class="slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="slide__block">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap4.svg" alt="логотип" class="slide__logo-icon">
+                        </a>
+                        <a href="#" class="slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="slide__block">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap5.svg" alt="логотип" class="slide__logo-icon">
+                        </a>
+                        <a href="#" class="slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="slide__block">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap6.svg" alt="логотип" class="slide__logo-icon">
+                        </a>
+                        <a href="#" class="slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="slide__block">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap7.svg" alt="логотип" class="slide__logo-icon">
+                        </a>
+                        <a href="#" class="slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="slide__block">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap8.svg" alt="логотип" class="slide__logo-icon">
+                        </a>
+                        <a href="#" class="slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="slide__block">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap.svg" alt="логотип" class="slide__logo-icon">
+                        </a>
+                        <a href="#" class="slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="slide__block">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap2.svg" alt="логотип" class="slide__logo-icon">
+                        </a>
+                        <a href="#" class="swiper-slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                    <div class="slide__block">
+                        <a href="#" class="slide__logo">
+                            <img src="icon/Bitmap3.svg" alt="логотип" class="slide__logo-icon">
+                        </a>
+                        <a href="#" class="slide__button">
+                            <img src="icon/go.svg" alt="конпка" class="icon-button">
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="buttons">
+                    <div class="button-show">
+                        <img src="icon/icon.svg" alt="" class="button-show__icon">
+                        <a href="#" class="button-text">Показать все</a>
+                    </div>
+                    <div class="button-close">
+                        <img src="icon/icon.svg" alt="" class="button-close__icon">
+                        <a href="#" class="button-text">Скрыть</a>
+                    </div>
+        
+                </div>
+        
+            </main>
+        
+        </div>
         </main>
 
-        <footer>
-            <div class="menu-footer">
-                <a href="" class="menu-footer__call"><img src="icon/chat%20copy.svg" alt="звонок" class="icon menu-footer__icon-coll"></a>
-                <a href="" class="menu-footer__chat"><img src="icon/chat.svg" alt="чат" class="icon menu-footer__icon-chat"></a>
-                <a href="" class="menu-footer__profile"><img src="icon/profile.svg" alt="профиль" class="icon menu-footer__profile"></a>
-                <p class="mail">mail@cps.com</p>
-                <p class="number">8 800 890 8900</p>
-                <div class="lang">
-                    <a href="#" class="lang-ru">RU</a>
-                    <a href="#" class="lang-en">EN</a>
-                    <a href="#" class="lang-ch">CH</a>
-                </div>
-            </div>
-        </footer>
-
-    </div>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="script/script.js"></script>
 </body>
 </html>
